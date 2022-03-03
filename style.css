@@ -1,0 +1,83 @@
+body{
+    background-color:#ffea00;
+
+}
+
+.btn-success:hover{
+ background-color: #ffa200;
+
+}
+h1{
+    font-size: 20px !important;
+}
+canvas{
+    animation-name: background_change_colors;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    margin-top: 100px;
+}
+
+@keyframes background_change_colors{
+
+    from{ box-shadow: 10px 10px 40px #ffea00}
+    to{ box-shadow: 10px 10px 50px #00fffb}
+}
+
+#glass{
+    background-image: url("glasses.png");
+    background-size: cover;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+
+    
+}
+
+#clown{
+    background-image: url("Clown_nose_large.png");
+    background-size: cover;
+    background-position: center;
+
+    width: 100px;
+    height: 100px;
+    
+}
+
+#bunny{
+    background-image: url("bunny_ear.png");
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 100px;
+
+}
+
+#hat{
+    background-image: url("hat.png");
+    background-size: cover;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+
+    
+}
+
+#police{
+    background-image: url("police.png");
+    background-size: cover;
+    background-position: center;
+
+    width: 100px;
+    height: 100px;
+    
+}
+
+#santa{
+    background-image: url("santa.png");
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 100px;
+
+}
